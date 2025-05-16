@@ -1,5 +1,3 @@
-# Processamento-Paralelo-Fluxo-Embarcado
-
 #### Disciplina: Fluxo de Projeto em Sistemas Embarcados
 #### Discente: Wesley Brito da Silva
 #### Matrícula: 
@@ -8,11 +6,11 @@
 
 Baseando-se no código em C abaixo, deve ser feito em c++ em máquina virtual, SO Linux ou através do terminal do Linux no Windows com WSL. No caso deste trabalho, foi feito em WSL, sendo a versão do terminal:
 
-<img src=fotos/versão_linux_terminal.png>
+<img src=arquivos/fotos/versão_linux_terminal.png>
 
 Para uma máquina com as configurações de CPU que se encontram na imagem abaixo:
 
-<img src=fotos/especificacoes_windows_terminal.png>
+<img src=arquivos/fotos/especificacoes_windows_terminal.png>
 
 Abaixo tem-se um exemplo de código para encontrar o valor de PI com a variável SOMA compartilhada entre as T threads, sem controle à eventual seção crítica:
 
@@ -40,7 +38,11 @@ void* calcPartialPI sum(void* rank) {
 #### Pede-se:
  a) PIparallel_1: Elaborar versão do código incluindo seção crítica controlada por MUTEX dentro do loop, tal como em: https://github.com/josenalde/flux-embedded-design/blob/main/src/pthread_count3s_mutex_1.cpp
 
- - <font color="red">Para isso, foi feito a adaptação que se encontra no link: https://github.com/wesley-b1.</br> Usando o código de compilação, no WSL, `g++ atividade3_1a.cpp -o atividade3_1a`, depois `./atividade3_1a` para executar. </font>
+ - <font color="red"> Para isso, foi feito a adaptação que se encontra no link: https://github.com/wesley-b1/Processamento-Paralelo-Fluxo-Embarcado/blob/main/arquivos/atividade3_1a.cpp.</br> 
+ - Usando o código de compilação, no WSL, `g++ atividade3_1a.cpp -o atividade3_1a`, depois `./atividade3_1a` para executar. </br> 
+ - Como resultado do processamento, teve um tempo de 530 segundos, como visto na imagem abaixo:
+  <img src=arquivos/fotos/tempo_processamento_3_1a.png>
+  </font>
 
 b) PIparallel_2: Elaborar versão do código incluindo seção crítica controlada por MUTEX fora do loop, com variável privada da soma de contribuição de cada thread, tal como em: https://github.com/josenalde/flux-embedded-design/blob/main/src/pthread_count3s_mutex_3.cpp.
 
