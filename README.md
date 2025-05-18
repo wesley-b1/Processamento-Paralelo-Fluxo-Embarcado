@@ -1,6 +1,6 @@
 #### Disciplina: Fluxo de Projeto em Sistemas Embarcados
 #### Discente: Wesley Brito da Silva
-#### Matrícula: 
+#### Matrícula: 20251011514
 
 ### Atividade 3.1: Desenvolver código com paradigma paralelo para estimar o número PI
 
@@ -40,7 +40,7 @@ void* calcPartialPI sum(void* rank) {
 
  - <font color="red"> Para isso, foi feito a adaptação que se encontra no link: https://github.com/wesley-b1/Processamento-Paralelo-Fluxo-Embarcado/blob/main/arquivos/atividade3_1a.cpp.</br> 
  - Usando o código de compilação, no WSL, `g++ atividade3_1a.cpp -o atividade3_1a`, depois `./atividade3_1a` para executar. </br> 
- - Como resultado do processamento, teve um tempo de 530 segundos, como visto na imagem abaixo:
+ - Como resultado do processamento, teve um tempo de 570 segundos, como visto na imagem abaixo:
   <img src=arquivos/fotos/tempo_processamento_3_1a.png>
   </font>
 
