@@ -1,6 +1,6 @@
 #### Disciplina: Fluxo de Projeto em Sistemas Embarcados
 #### Discente: Wesley Brito da Silva
-#### Matrícula: 
+#### Matrícula: 20251011514
 
 ### Atividade 3.1: Desenvolver código com paradigma paralelo para estimar o número PI
 
