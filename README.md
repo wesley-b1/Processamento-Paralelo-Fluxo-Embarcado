@@ -6,12 +6,10 @@
 
 Baseando-se no código em C abaixo, deve ser feito em c++ em máquina virtual, SO Linux ou através do terminal do Linux no Windows com WSL. No caso deste trabalho, foi feito em WSL, sendo a versão do terminal:
 
-- <img src=arquivos/fotos/versão_linux_terminal.png>
-
+- <img src="https://github.com/wesley-b1/Processamento-Paralelo-Fluxo-Embarcado/raw/main/arquivos/fotos/versão_linux_terminal.png" width="500">
 Para uma máquina com as configurações de CPU que se encontram na imagem abaixo:
 
-- <img src=arquivos/fotos/especificacoes_windows_terminal.png>
-
+- <img src="https://github.com/wesley-b1/Processamento-Paralelo-Fluxo-Embarcado/raw/main/arquivos/fotos/especificacoes_windows_terminal.png" width="500">
 Abaixo tem-se um exemplo de código para encontrar o valor de PI com a variável SOMA compartilhada entre as T threads, sem controle à eventual seção crítica:
 
 ```C
@@ -67,6 +65,6 @@ Apresentar na tabela a coluna com o PI calculado e a coluna com o tempo médio d
 
 - <font color="red"> Nas imagens abaixo podemos ver as respostas pedidas:
 
-- <img src=arquivos/fotos/tabela_especificações.png />
-- <img src=arquivos/fotos/tabela_resumo_3a.png />
+- <img src="https://github.com/wesley-b1/Processamento-Paralelo-Fluxo-Embarcado/raw/main/arquivos/fotos/tabela_especificações.png" width="500">
+- <img src="https://github.com/wesley-b1/Processamento-Paralelo-Fluxo-Embarcado/raw/main/arquivos/fotos/tabela_resumo_3a.png" width="500">
 - </font>
