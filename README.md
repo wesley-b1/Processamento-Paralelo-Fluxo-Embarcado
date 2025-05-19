@@ -63,8 +63,8 @@ Apresentar na tabela a coluna com o PI calculado e a coluna com o tempo médio d
 - <img src=arquivos/fotos/atividade2.png>
 
 
-- <font color="red"> Nas imagens abaixo podemos ver as respostas pedidas:
+ Nas imagens abaixo podemos ver as respostas pedidas:
 
 - <img src="https://github.com/wesley-b1/Processamento-Paralelo-Fluxo-Embarcado/raw/main/arquivos/fotos/tabela_especificações.png" width="500">
-- <img src="https://github.com/wesley-b1/Processamento-Paralelo-Fluxo-Embarcado/raw/main/arquivos/fotos/tabela_resumo_3a.png" width="500">
-- </font>
+- <img src="https://github.com/wesley-b1/Processamento-Paralelo-Fluxo-Embarcado/raw/main/arquivos/fotos/tabela_resumo_3a.png" width="750">
+
