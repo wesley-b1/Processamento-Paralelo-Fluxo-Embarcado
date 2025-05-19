@@ -10,7 +10,7 @@ Baseando-se no código em C abaixo, deve ser feito em c++ em máquina virtual, S
 
 Para uma máquina com as configurações de CPU que se encontram na imagem abaixo:
 
-<img src=arquivos/fotos/especificacoes_windows_terminal.png>
+<img src=../arquivos/fotos/especificacoes_windows_terminal.png>
 
 Abaixo tem-se um exemplo de código para encontrar o valor de PI com a variável SOMA compartilhada entre as T threads, sem controle à eventual seção crítica:
 
