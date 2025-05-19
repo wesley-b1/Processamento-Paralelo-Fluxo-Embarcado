@@ -6,7 +6,7 @@
 
 Baseando-se no código em C abaixo, deve ser feito em c++ em máquina virtual, SO Linux ou através do terminal do Linux no Windows com WSL. No caso deste trabalho, foi feito em WSL, sendo a versão do terminal:
 
-<img src=arquivos/fotos/versão_linux_terminal.png>
+<img src=arquivos/fotos/versão_linux_terminal.png> </img>
 
 Para uma máquina com as configurações de CPU que se encontram na imagem abaixo:
 
