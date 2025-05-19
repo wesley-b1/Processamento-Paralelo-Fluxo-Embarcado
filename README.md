@@ -6,7 +6,7 @@
 
 Baseando-se no código em C abaixo, deve ser feito em c++ em máquina virtual, SO Linux ou através do terminal do Linux no Windows com WSL. No caso deste trabalho, foi feito em WSL, sendo a versão do terminal:
 
-<img src=arquivos/fotos/versão_linux_terminal.png> </img>
+- <img src=arquivos/fotos/versão_linux_terminal.png>
 
 Para uma máquina com as configurações de CPU que se encontram na imagem abaixo:
 
@@ -62,9 +62,9 @@ d) criar tabela comparativa das letras a) e b) para o caso de 1 thread por core 
 
 Apresentar na tabela a coluna com o PI calculado e a coluna com o tempo médio de 10 execuções para cada caso.
 
-<img src=arquivos/fotos/atividade2.png></img>
+<img src=arquivos/fotos/atividade2.png>
 
 
 - Nas imagens abaixo podemos ver as respostas pedidas:
-- <img src=arquivos/fotos/tabela_especificações.png></img>
-- <img src=arquivos/fotos/tabela_resumo_3a.png></img>
+- <img src=arquivos/fotos/tabela_especificações.png />
+- <img src=arquivos/fotos/tabela_resumo_3a.png />
