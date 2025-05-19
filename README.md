@@ -54,7 +54,7 @@ b) PIparallel_2: Elaborar versão do código incluindo seção crítica controla
 
 c) PIserial: Rodar versão do código serial, sem paralelismo, ou seja, com 1 thread:
 - <font color="red"> Após rodar com uma thread, para processar, ele demorou 37 segundos, enquanto os outros resultados, são apresentados na imagem abaixo:</br>
- <img src=arquivos/fotos/tempo_processamento_3_1c.png>
+ - <img src=arquivos/fotos/tempo_processamento_3_1c.png>
 </font>
 
 
@@ -62,9 +62,11 @@ d) criar tabela comparativa das letras a) e b) para o caso de 1 thread por core 
 
 Apresentar na tabela a coluna com o PI calculado e a coluna com o tempo médio de 10 execuções para cada caso.
 
-<img src=arquivos/fotos/atividade2.png>
+- <img src=arquivos/fotos/atividade2.png>
 
 
-- Nas imagens abaixo podemos ver as respostas pedidas:
+- <font color="red"> Nas imagens abaixo podemos ver as respostas pedidas:
+
 - <img src=arquivos/fotos/tabela_especificações.png />
 - <img src=arquivos/fotos/tabela_resumo_3a.png />
+- </font>
