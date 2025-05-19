@@ -40,20 +40,20 @@ void* calcPartialPI sum(void* rank) {
 
  - <font color="red"> Para isso, foi feito a adaptação que se encontra no link: https://github.com/wesley-b1/Processamento-Paralelo-Fluxo-Embarcado/blob/main/arquivos/atividade3_1a.cpp.</br> 
  - Usando o código de compilação, no WSL, `g++ atividade3_1a.cpp -o atividade3_1a`, depois `./atividade3_1a` para executar. </br> 
- - Como resultado do processamento, teve um tempo de 667 segundos, como visto na imagem abaixo:
-  <img src=arquivos/fotos/tempo_processamento_3_1a.png>
+ - Como resultado do processamento, teve um tempo de 667 segundos, como visto na imagem abaixo:</br>
+  <img src="arquivos/fotos/tempo_processamento_3_1a.png">
   </font>
 
 b) PIparallel_2: Elaborar versão do código incluindo seção crítica controlada por MUTEX fora do loop, com variável privada da soma de contribuição de cada thread, tal como em: https://github.com/josenalde/flux-embedded-design/blob/main/src/pthread_count3s_mutex_3.cpp.
 - <font color="red"> A mudança necessária se encontra no link da atividade: https://github.com/wesley-b1/Processamento-Paralelo-Fluxo-Embarcado/blob/main/arquivos/atividade3_1b.cpp.</br>
-- Compilando da mesma forma que a questão anterior, temos o resultado com um tempo de processamento muito menor,já que a região crítica se encontra fora do loop. Sendo assim, a imagem abaixo apresenta os outros valores:
-- <img src=arquivos/fotos/tempo_processamento_3_1b.png>
+- Compilando da mesma forma que a questão anterior, temos o resultado com um tempo de processamento muito menor,já que a região crítica se encontra fora do loop. Sendo assim, a imagem abaixo apresenta os outros valores:</br>
+ <img src=arquivos/fotos/tempo_processamento_3_1b.png>
 </font>
 
 
 c) PIserial: Rodar versão do código serial, sem paralelismo, ou seja, com 1 thread:
-- <font color="red"> Após rodar com uma thread, para processar, ele demorou 37 segundos, enquanto os outros resultados, são apresentados na imagem abaixo:
-- <img src=arquivos/fotos/tempo_processamento_3_1c.png>
+- <font color="red"> Após rodar com uma thread, para processar, ele demorou 37 segundos, enquanto os outros resultados, são apresentados na imagem abaixo:</br>
+ <img src=arquivos/fotos/tempo_processamento_3_1c.png>
 </font>
 
 
@@ -61,4 +61,4 @@ d) criar tabela comparativa das letras a) e b) para o caso de 1 thread por core 
 
 Apresentar na tabela a coluna com o PI calculado e a coluna com o tempo médio de 10 execuções para cada caso.
 
-<img src=atividade2.png></img>
+<img src=arquivos/fotos/atividade2.png></img>
