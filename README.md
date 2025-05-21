@@ -6,7 +6,7 @@
 
 Baseando-se no código em C abaixo, deve ser feito em c++ em máquina virtual, SO Linux ou através do terminal do Linux no Windows com WSL. No caso deste trabalho, foi feito em WSL, sendo a versão do terminal:
 
-- <img src="https://github.com/wesley-b1/Processamento-Paralelo-Fluxo-Embarcado/raw/main/arquivos/fotos/versão_linux_terminal.png" width="500">
+- <img src="https://github.com/wesley-b1/Processamento-Paralelo-Fluxo-Embarcado/raw/main/arquivos/fotos/versão_linux_terminal.png" width="750">
 Para uma máquina com as configurações de CPU que se encontram na imagem abaixo:
 
 - <img src="https://github.com/wesley-b1/Processamento-Paralelo-Fluxo-Embarcado/raw/main/arquivos/fotos/especificacoes_windows_terminal.png" width="500">
